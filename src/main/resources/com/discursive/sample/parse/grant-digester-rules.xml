@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<digester-rules>
+    <pattern value="feed">
+    <pattern value="entry">
+        <bean-property-setter-rule pattern="id"
+                                   propertyname="grantId"/>
+        <bean-property-setter-rule pattern="content/recipient_zip"
+                                   propertyname="zip"/>
+        <bean-property-setter-rule pattern="content/recipient_city_name"
+                                   propertyname="city"/>
+        <bean-property-setter-rule pattern="content/recipient_state_code"
+                                   propertyname="state"/>
+        <bean-property-setter-rule pattern="content/fed_funding_amount"
+                                   propertyname="funding"/>
+        <bean-property-setter-rule pattern="content/cfda_program_title"
+                                   propertyname="title"/>
+        <bean-property-setter-rule pattern="content/proj_desc"
+                                   propertyname="desc"/>
+        <call-method-rule methodname="grantEnd"	
+                                   paramtype="java.lang.Object"/>
+    </pattern>
+    </pattern>
+</digester-rules>
