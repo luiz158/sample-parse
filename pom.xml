@@ -41,5 +41,39 @@
     	<artifactId>commons-collections</artifactId>
     	<version>3.2.1</version>
     </dependency>
+    <dependency>
+    	<groupId>org.codehaus.staxmate</groupId>
+    	<artifactId>staxmate</artifactId>
+    	<version>2.0.0</version>
+    	<scope>compile</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.codehaus.staxmate</groupId>
+    	<artifactId>stax2</artifactId>
+    	<version>2.1</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.codehaus.woodstox</groupId>
+    	<artifactId>wstx-asl</artifactId>
+    	<version>4.0.0</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
+    <dependency>
+    	<groupId>net.sf.json-lib</groupId>
+    	<artifactId>json-lib</artifactId>
+    	<version>2.3</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.apache.httpcomponents</groupId>
+    	<artifactId>httpclient</artifactId>
+    	<version>4.0</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
   </dependencies>
 </project>
